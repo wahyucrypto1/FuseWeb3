@@ -1,0 +1,26 @@
+{
+  "buildCommand": "npm run build",
+  "devCommand": "npm run dev",
+  "installCommand": "npm install",
+  "framework": "nextjs",
+  "env": [
+    {
+      "key": "COMET_API_KEY",
+      "description": "API key for Sora video generation",
+      "value": "",
+      "type": "secret"
+    },
+    {
+      "key": "NEXT_PUBLIC_FUSE_RPC_URL",
+      "description": "Fuse Mainnet RPC URL",
+      "value": "https://rpc.fuse.io",
+      "type": "plain"
+    },
+    {
+      "key": "NEXT_PUBLIC_FUSE_TESTNET_RPC_URL",
+      "description": "Fuse Testnet RPC URL",
+      "value": "https://rpc.fusespark.io",
+      "type": "plain"
+    }
+  ]
+}
